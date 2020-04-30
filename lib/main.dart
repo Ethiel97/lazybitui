@@ -3,6 +3,7 @@ import 'package:lazybitui/ui/1.dart';
 import 'package:lazybitui/ui/blog_home_one.dart';
 import 'package:lazybitui/ui/blog_home_two.dart';
 import 'package:lazybitui/ui/dashboard_one.dart';
+import 'package:lazybitui/ui/photography_one.dart';
 import 'package:lazybitui/ui/weather_one.dart';
 import 'package:lazybitui/ui/workout_one.dart';
 
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/dashboard': (BuildContext context) => new DashboardOne(),
         '/workout': (BuildContext context) => new WorkoutOne(),
         '/weather': (BuildContext context) => new WeatherOne(),
+        '/photography': (BuildContext context) => new PhotographyOne(),
       },
       debugShowCheckedModeBanner: false,
       title: 'Lazybit UI',
@@ -101,6 +103,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.of(context).pushNamed('/weather');
                 },
                 child: Text("Weather"),
+              ),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              child: MaterialButton(
+                onPressed: () {
+                  Navigator.of(context).pushNamed('/photography');
+                },
+                child: Text("Photography"),
               ),
             )
           ],

@@ -53,3 +53,10 @@ Credits goes to the one who designed these UI in Sketch, Adobe any using many va
 <img src="screenshots/Screenshot_1588175011.png" alt="Home" height="500" />
 <img src="screenshots/Screenshot_1588174670.png" alt="Home" height="500" />
 
+<br/><hr/><br/>
+<center><b>Photography</b>:</center>
+<hr/>
+
+<img src="screenshots/Screenshot_1588286988.png" alt="Home" height="500" />
+<img src="screenshots/Screenshot_1588286993.png" alt="Home" height="500" />
+

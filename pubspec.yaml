@@ -58,6 +58,12 @@ flutter:
     - assets/blog/fashion_blog_image_four.jpg
     - assets/blog/fashion_blog_image_five.jpeg
     - assets/blog/fashion_blog_image_six.jpg
+    - assets/photography/photography_0.jpg
+    - assets/photography/photography_1.jpg
+    - assets/photography/photography_2.jpg
+    - assets/photography/photography_3.jpeg
+    - assets/photography/photography_4.jpg
+    - assets/photography/photography_5.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
